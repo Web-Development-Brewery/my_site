@@ -24,16 +24,17 @@ h3 {
     padding-top: 100px;
 }
 
-.middle-container {
+.profile_img {
     width: 200px;
     height: 200px;
-    background-color: red;
+}
+
+.middle-container {
+
 }
 
 .bottom-container {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(0, 4, 255);
+
 }
 
 
