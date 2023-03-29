@@ -5,21 +5,34 @@ body {
 }
 
 h1 { 
-    margin: 0;
-    font-family: 'Sacramento', cursive
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    /* 100% is equal to 16px, so 90px is equal ~to 562% */
+    line-height: 2.5;
+
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
 }
 
 /* class selectors */
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #dbdbdb
+}
+
 .top-container {
-    background-color: #E4F9F4;
+    background-color: #474E68;
     position: relative;
     padding-top: 100px;
 }
@@ -50,3 +63,26 @@ h3 {
     left: 400px;  
 }
 
+.btn {
+  color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.img_skills{
+    width: 10%;
+    float: left;
+    margin-right: 30px;
+}
+
+.img_programming{
+    width: 10%;
+    float: right;
+    margin-left: 30px;
+
+}
