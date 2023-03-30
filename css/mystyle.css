@@ -9,7 +9,7 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.62rem;
     /* 100% is equal to 16px, so 90px is equal ~to 562% */
-    line-height: 2.5;
+    line-height: 2;
 
 }
 
@@ -23,6 +23,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     color:  #11999E;
 }
+
 
 /* class selectors */
 .subtitle {
@@ -75,14 +76,13 @@ h3 {
 }
 
 .img_skills{
-    width: 10%;
+    width: 15%;
     float: left;
     margin-right: 30px;
 }
 
 .img_programming{
-    width: 10%;
+    width: 15%;
     float: right;
     margin-left: 30px;
-
 }
